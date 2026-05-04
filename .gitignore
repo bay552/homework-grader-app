@@ -2,7 +2,6 @@
 bin/
 *.pyc
 __pycache__/
-*.spec
 .env
 *.log
 .DS_Store
