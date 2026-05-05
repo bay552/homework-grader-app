@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas,ttf
 version = 1.0.0
 
 # (list) Application requirements
-requirements = python3,kivy,plyer,pillow,requests
+requirements = python3,kivy==2.3.0,plyer,pillow,requests,android
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
 orientation = portrait
@@ -53,7 +53,8 @@ android.skip_update = False
 
 # (bool) If True, then automatically accept SDK license
 android.accept_sdk_license = True
-
+# (bool) If True, use virtualenv for python dependencies
+android.use_virtualenv = False
 # (str) Path to a custom keystore
 # android.keystore = /path/to/keystore
 
